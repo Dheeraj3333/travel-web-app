@@ -629,14 +629,14 @@ export const AllPackagesDetails: IPackageDetails[] = [
 ];
 
 export const navLinks = [
-  { path: "/holiday", name: "Holiday", isDropDown: true },
+  { path: "/destination", name: "Destination", isDropDown: true },
   { path: "/car-rentals", name: "Car Rentals", isDropDown: false },
   { path: "/hotel", name: "Hotel", isDropDown: false },
-  { path: "/destination", name: "Destination", isDropDown: true },
-  { path: "/payment", name: "Payment", isDropDown: false },
-  { path: "/guest-feedback", name: "Guest Feedback", isDropDown: false },
   { path: "/contact", name: "Contact Us", isDropDown: false },
   { path: "/account", name: "My Account", isDropDown: true },
+  { path: "/guest-feedback", name: "Guest Feedback", isDropDown: false },
+  { path: "/holiday", name: "Holiday", isDropDown: true },
+  { path: "/payment", name: "Payment", isDropDown: false },
 ];
 
 export const holidayOptions = [

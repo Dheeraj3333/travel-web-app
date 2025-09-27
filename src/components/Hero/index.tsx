@@ -5,7 +5,7 @@ import { twMerge } from 'tailwind-merge'
 import Carousel from './Carousel'
 import HeroNavigation from './HeroNavigation'
 
-const HeroSection = ({classname}:{classname:string}) => {
+const HeroSection = ({classname}:{classname?:string}) => {
   return (
     <section className={twMerge("",classname)} >
         <Carousel />
